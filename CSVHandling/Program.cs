@@ -12,7 +12,7 @@ namespace CSVHandling
 
             string[] splitted = csv.Split('\n');
 
-            for (int i = 1; i < splitted.Length; i++)
+            for (int i = 1; i < splitted.Length-1; i++)
             {
                 string[] lijnsplit = splitted[i].Split(',');
                 Console.WriteLine("Data 1=" + lijnsplit[0]);
